@@ -1,9 +1,8 @@
 # Licensing and attribution
 
-This local release candidate contains original code migrated from the combined
-VCI project. The original project documentation describes the scope of a code
-license but the source checkout has no explicit license grant. The rights holder
-must add the chosen code license and any required notices before distribution.
+The original code and documentation in this repository are available under
+the [MIT License](LICENSE). This license does not grant rights to third-party
+components or assets.
 
 External code, datasets, pretrained weights, body models, and evaluation assets
 retain their owners' terms. Obtain them separately through authorized channels.
