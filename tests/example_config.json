@@ -1,0 +1,29 @@
+{
+  "timeout_seconds": 1800,
+  "job_timeout_seconds": 7200,
+  "training_timeout_seconds": 1800,
+  "install_timeout_seconds": 7200,
+  "datasets": {
+    "processed": {"root": "/data/processed", "subject": "example-subject", "cameras": ["00", "08"], "frame": 6, "annotations": ["smplx"]},
+    "thuman": {"root": "/data/thuman", "subject": "example-subject"},
+    "dancenet3d": {"root": "/data/dancenet3d", "subject": "example-sequence"},
+    "dna": {"root": "/data/dna/Part1", "subject": "example-sequence", "sample_code": "/data/dna/sample-code"},
+    "talkbody4d": {"root": "/data/talkbody4d", "subject": "example-sequence"},
+    "4ddress": {"root": "/data/4ddress", "subject": "example-sequence", "trusted_pickles": false},
+    "actorshq": {"root": "/data/actorshq", "subject": "Actor01"}
+  },
+  "validate_processed": {"root": "/data/processed/example-subject", "products": ["media", "smplx", "metrics"]},
+  "check_assets": false,
+  "capture": {"root": "/data/raw-captures", "subjects": ["example-subject", "example-subject-02"], "workers": 4},
+  "dna_reprocess": {"root": "/data/dna/Part1", "subject": "example-sequence", "sample_code": "/data/dna/sample-code", "cameras": ["00", "08", "16", "24"], "frames": [0, 1, 2, 3]},
+  "live_capture": false,
+  "live_walkthrough": false,
+  "avatar_input": {"root": "/data/processed", "subjects": ["example-subject", "example-subject-02"]},
+  "preview_avatar": [],
+  "live_avatar": {},
+  "site_batches": [],
+  "site_preflight": false,
+  "live_site_batches": false,
+  "test_python": {},
+  "fresh_install": {}
+}

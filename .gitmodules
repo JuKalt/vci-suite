@@ -1,0 +1,12 @@
+[submodule "multiview-data"]
+	path = multiview-data
+	url = ../multiview-data
+[submodule "capture-processing"]
+	path = capture-processing
+	url = ../capture-processing
+[submodule "device-jobs"]
+	path = device-jobs
+	url = ../device-jobs
+[submodule "avatar-creation"]
+	path = avatar-creation
+	url = ../avatar-creation

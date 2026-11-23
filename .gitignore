@@ -1,0 +1,5 @@
+/.miniforge/
+/.venv-incomplete-*/
+
+# Site-specific jobs include private worker addresses and local paths.
+/configs/distribution/vci-2026_*.json
