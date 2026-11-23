@@ -8,7 +8,7 @@ API, and train avatars. Device Jobs can run either workload across Linux GPUs.
 The suite pins four Git submodules so the same tested versions install together.
 Each component can also be installed on its own.
 
-![RGB capture, rough and detailed color-coded segmentation, segmentation confidence, and standard SMPL-X and MHR body fits.](https://raw.githubusercontent.com/JuKalt/capture-processing/c46caa27fc8fca699057d6a840860e7fafafff28/docs/media/vci-capture-processing.gif)
+![RGB capture, rough and detailed color-coded segmentation, segmentation confidence, and standard SMPL-X and MHR body fits.](https://raw.githubusercontent.com/JuKalt/capture-processing/f401f8b545896923090b5f4ef91fe8670e923ded/docs/media/vci-capture-processing.gif)
 
 *One synchronized capture: 34 color cameras, 252 frames at 25 fps (10.1 seconds). The GIF shows a 4.2-second excerpt from one camera.*
 
