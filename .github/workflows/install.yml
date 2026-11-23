@@ -1,5 +1,5 @@
 name: Suite install
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
 jobs:
@@ -13,8 +13,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-          # While the component repos are private, the default token cannot read them.
-          token: ${{ secrets.VCI_CI_READ_TOKEN || github.token }}
           persist-credentials: false
       - uses: conda-incubator/setup-miniconda@v3
         with:
